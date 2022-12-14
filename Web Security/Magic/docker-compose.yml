@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  web:
+    container_name: magic
+    build: .
+    ports:
+      - 83:80

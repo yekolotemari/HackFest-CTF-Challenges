@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  ctf:
+    container_name: bypassme
+    build: .
+    ports:
+      - "80:80"
+

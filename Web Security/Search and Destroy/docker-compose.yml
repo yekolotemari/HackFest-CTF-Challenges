@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  web:
+    container_name : localfilei
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - ./src:/var/www/html
+      
